@@ -79,3 +79,30 @@
     }
 }
 [INFO] 12-02-2025 14:10:40 [main] LogUtils - Value by key (response.name): Technology Orchestrator
+[INFO] 13-02-2025 13:29:19 [main] LogUtils - GENERATE CATEGORY NAME: Marketing Analyst
+[INFO] 13-02-2025 13:29:19 [main] LogUtils - POST: /category
+[INFO] 13-02-2025 13:29:19 [main] LogUtils - Body: src/test/resources/testdata/CreateCategory.json
+[INFO] 13-02-2025 13:29:20 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "name": "Marketing Analyst",
+        "id": 137
+    }
+}
+[INFO] 13-02-2025 13:29:20 [main] LogUtils - Verify Status code: 200 == 200
+[INFO] 13-02-2025 13:29:20 [main] LogUtils - Value by key (response.id): 137
+[INFO] 13-02-2025 13:29:20 [main] LogUtils - Value by key (response.name): Marketing Analyst
+[INFO] 13-02-2025 13:29:20 [main] LogUtils - CATEGORY_ID: 137
+[INFO] 13-02-2025 13:29:20 [main] LogUtils - CATEGORY_NAME: Marketing Analyst
+[INFO] 13-02-2025 13:29:20 [main] LogUtils - CATEGORY_ID: 137
+[INFO] 13-02-2025 13:29:20 [main] LogUtils - GET: /category/137
+[INFO] 13-02-2025 13:29:21 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "id": 137,
+        "name": "Marketing Analyst"
+    }
+}
+[INFO] 13-02-2025 13:29:21 [main] LogUtils - Value by key (response.name): Marketing Analyst
