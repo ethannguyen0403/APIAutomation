@@ -1,0 +1,81 @@
+[INFO] 12-02-2025 09:44:37 [main] LogUtils - GENERATE CATEGORY NAME: Banking Specialist
+[INFO] 12-02-2025 09:44:37 [main] LogUtils - POST: /category
+[INFO] 12-02-2025 09:44:37 [main] LogUtils - Body: src/test/resources/testdata/CreateCategory.json
+[INFO] 12-02-2025 09:44:37 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "name": "Banking Specialist",
+        "id": 134
+    }
+}
+[INFO] 12-02-2025 09:44:37 [main] LogUtils - Verify Status code: 200 == 200
+[INFO] 12-02-2025 09:44:37 [main] LogUtils - Value by key (response.id): 134
+[INFO] 12-02-2025 09:44:37 [main] LogUtils - Value by key (response.name): Banking Specialist
+[INFO] 12-02-2025 09:44:37 [main] LogUtils - CATEGORY_ID: 134
+[INFO] 12-02-2025 09:44:37 [main] LogUtils - CATEGORY_NAME: Banking Specialist
+[INFO] 12-02-2025 09:44:37 [main] LogUtils - CATEGORY_ID: 134
+[INFO] 12-02-2025 09:44:37 [main] LogUtils - GET: /category/134
+[INFO] 12-02-2025 09:44:38 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "id": 134,
+        "name": "Banking Specialist"
+    }
+}
+[INFO] 12-02-2025 09:44:38 [main] LogUtils - Value by key (response.name): Banking Specialist
+[INFO] 12-02-2025 14:09:44 [main] LogUtils - GENERATE CATEGORY NAME: Legal Architect
+[INFO] 12-02-2025 14:09:44 [main] LogUtils - POST: /category
+[INFO] 12-02-2025 14:09:44 [main] LogUtils - Body: src/test/resources/testdata/CreateCategory.json
+[INFO] 12-02-2025 14:09:47 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "name": "Legal Architect",
+        "id": 135
+    }
+}
+[INFO] 12-02-2025 14:09:47 [main] LogUtils - Verify Status code: 200 == 200
+[INFO] 12-02-2025 14:09:47 [main] LogUtils - Value by key (response.id): 135
+[INFO] 12-02-2025 14:09:47 [main] LogUtils - Value by key (response.name): Legal Architect
+[INFO] 12-02-2025 14:09:47 [main] LogUtils - CATEGORY_ID: 135
+[INFO] 12-02-2025 14:09:47 [main] LogUtils - CATEGORY_NAME: Legal Architect
+[INFO] 12-02-2025 14:09:47 [main] LogUtils - CATEGORY_ID: 135
+[INFO] 12-02-2025 14:09:47 [main] LogUtils - GET: /category/135
+[INFO] 12-02-2025 14:09:47 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "id": 135,
+        "name": "Legal Architect"
+    }
+}
+[INFO] 12-02-2025 14:09:47 [main] LogUtils - Value by key (response.name): Legal Architect
+[INFO] 12-02-2025 14:10:38 [main] LogUtils - GENERATE CATEGORY NAME: Technology Orchestrator
+[INFO] 12-02-2025 14:10:38 [main] LogUtils - POST: /category
+[INFO] 12-02-2025 14:10:38 [main] LogUtils - Body: src/test/resources/testdata/CreateCategory.json
+[INFO] 12-02-2025 14:10:39 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "name": "Technology Orchestrator",
+        "id": 136
+    }
+}
+[INFO] 12-02-2025 14:10:39 [main] LogUtils - Verify Status code: 200 == 200
+[INFO] 12-02-2025 14:10:39 [main] LogUtils - Value by key (response.id): 136
+[INFO] 12-02-2025 14:10:39 [main] LogUtils - Value by key (response.name): Technology Orchestrator
+[INFO] 12-02-2025 14:10:39 [main] LogUtils - CATEGORY_ID: 136
+[INFO] 12-02-2025 14:10:39 [main] LogUtils - CATEGORY_NAME: Technology Orchestrator
+[INFO] 12-02-2025 14:10:39 [main] LogUtils - CATEGORY_ID: 136
+[INFO] 12-02-2025 14:10:39 [main] LogUtils - GET: /category/136
+[INFO] 12-02-2025 14:10:40 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "id": 136,
+        "name": "Technology Orchestrator"
+    }
+}
+[INFO] 12-02-2025 14:10:40 [main] LogUtils - Value by key (response.name): Technology Orchestrator

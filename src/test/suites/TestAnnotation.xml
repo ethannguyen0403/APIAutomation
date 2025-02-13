@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="APIAutomationClass" verbose="1">
+    <listeners>
+        <listener class-name="Listener.TestListener"/>
+    </listeners>
+    <test name="API Suite 1">
+        <classes>
+            <class name="com.ethan.testcase.Topic_13_Practice_Category"/>
+            <class name="com.ethan.testcase.Topic_13_Practice_Book"/>
+            <class name="com.ethan.testcase.Topic_13_Practice_Image"/>
+        </classes>
+    </test>
+</suite>
